@@ -1,0 +1,60 @@
+body {
+  background-image: url('http://i.imgur.com/0Dyd3wf.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+
+.thetimer, html, .buttonarea, .title{
+
+}
+
+.App {
+  text-align: center;
+  font-size: 45px;
+  margin-top: 20%;
+}
+
+.title {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #FFFFFF;
+  font-size: 80px;
+}
+
+.clock-days, .clock-hours, .clock-hours, .clock-minutes, .clock-seconds {
+  display: inline;
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 10px;
+  color: #FFFFFF;
+}
+
+.specialday {
+  font-size: 100px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.Deadline {
+  font-size: 25px;
+}
+
+.form-inline .form-control {
+  margin-right: 10px;
+}
+
+.btn-default {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #FFFFFF;
+  background-color: #41194d;
+  border-color: #F4F1DE;
+}
+
+.btn-default:hover{
+  background-color: #9c295b;
+  color: white;
+}
+
+.btn-default:visited{
+  background-color: #9c295b;
+  color: white;
+}
