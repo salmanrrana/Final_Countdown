@@ -14,21 +14,24 @@ class App extends Component {
 
 
   changeDeadline(){
-    // console.log('this is the state', this.state);
     this.setState({deadline: this.state.newDeadline});
   }
 
   render(){
     return(
     <div className="App">
-      <div className="title"> Countdown to <div className="specialday">{this.state.deadline}</div></div>
+      <div className="header">
+      <div className="title">Final Countdown<div className="specialday">{this.state.deadline}</div></div> 
+      </div>
+      <div className="clockarea">
       <Clock
         deadline={this.state.deadline}
       />
+    </div>
       <div className="buttonarea">
       <Form inline>
         <FormControl className="Deadline" onChange={ event => this.setState({ newDeadline: event.target.value }) } placeholder="new date..." />
-        <Button classname="buttonDude" onClick={() => this.changeDeadline()}>Submit</Button>
+        <Button className="buttonDude" onClick={() => this.changeDeadline()}>Submit</Button>
       </Form>
       </div>
     </div>
